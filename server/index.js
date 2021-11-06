@@ -19,8 +19,8 @@ createConnection();
 
 //Routes
 app.use("/products", products);
-app.use("/ventas", ventas);
-app.use("/usuarios", usuarios);
+app.use("/sales", ventas);
+app.use("/users", usuarios);
 
 //HTTP request
 app.get("/", async (_, res) => {
